@@ -4,3 +4,9 @@ google.*##.g:has(a[href*="plex.page"])
 ||alternativeto.net^
 duckduckgo.*##.results > div:has(a[href*="alternativeto.net"])
 google.*##.g:has(a[href*="alternativeto.net"])
+||slant.co^
+duckduckgo.*##.results > div:has(a[href*="slant.co"])
+google.*##.g:has(a[href*="slant.co"])
+||zhihu.com^
+duckduckgo.*##.results > div:has(a[href*="zhihu.com"])
+google.*##.g:has(a[href*="zhihu.com"])
