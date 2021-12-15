@@ -1,0 +1,3 @@
+||plex.page^
+duckduckgo.*##.results > div:has(a[href*="plex.page"])
+google.*##.g:has(a[href*="plex.page"])
