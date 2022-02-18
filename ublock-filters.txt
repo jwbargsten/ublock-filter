@@ -10,3 +10,21 @@ google.*##.g:has(a[href*="slant.co"])
 ||zhihu.com^
 duckduckgo.*##.results > div:has(a[href*="zhihu.com"])
 google.*##.g:has(a[href*="zhihu.com"])
+||blogspot.com^
+duckduckgo.*##.results > div:has(a[href*="blogspot.com"])
+google.*##.g:has(a[href*="blogspot.com"])
+||instructables.com^
+duckduckgo.*##.results > div:has(a[href*="instructables.com"])
+google.*##.g:has(a[href*="instructables.com"])
+||stackshare.io^
+duckduckgo.*##.results > div:has(a[href*="stackshare.io"])
+google.*##.g:has(a[href*="stackshare.io"])
+||goodfirms.co^
+duckduckgo.*##.results > div:has(a[href*="goodfirms.co"])
+google.*##.g:has(a[href*="goodfirms.co"])
+||geeksforgeeks.org^
+duckduckgo.*##.results > div:has(a[href*="geeksforgeeks.org"])
+google.*##.g:has(a[href*="geeksforgeeks.org"])
+||programcreek.com^
+duckduckgo.*##.results > div:has(a[href*="programcreek.com"])
+google.*##.g:has(a[href*="programcreek.com"])
