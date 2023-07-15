@@ -1,33 +1,33 @@
-||plex.page^
-duckduckgo.*##.results > div:has(a[href*="plex.page"])
-google.*##.g:has(a[href*="plex.page"])
-||alternativeto.net^
-duckduckgo.*##.results > div:has(a[href*="alternativeto.net"])
-google.*##.g:has(a[href*="alternativeto.net"])
-||slant.co^
-duckduckgo.*##.results > div:has(a[href*="slant.co"])
-google.*##.g:has(a[href*="slant.co"])
-||zhihu.com^
-duckduckgo.*##.results > div:has(a[href*="zhihu.com"])
-google.*##.g:has(a[href*="zhihu.com"])
-||blogspot.com^
-duckduckgo.*##.results > div:has(a[href*="blogspot.com"])
-google.*##.g:has(a[href*="blogspot.com"])
-||instructables.com^
-duckduckgo.*##.results > div:has(a[href*="instructables.com"])
-google.*##.g:has(a[href*="instructables.com"])
-||stackshare.io^
-duckduckgo.*##.results > div:has(a[href*="stackshare.io"])
-google.*##.g:has(a[href*="stackshare.io"])
-||goodfirms.co^
-duckduckgo.*##.results > div:has(a[href*="goodfirms.co"])
-google.*##.g:has(a[href*="goodfirms.co"])
-||geeksforgeeks.org^
-duckduckgo.*##.results > div:has(a[href*="geeksforgeeks.org"])
-google.*##.g:has(a[href*="geeksforgeeks.org"])
-||programcreek.com^
-duckduckgo.*##.results > div:has(a[href*="programcreek.com"])
-google.*##.g:has(a[href*="programcreek.com"])
-||libhunt.com^
-duckduckgo.*##.results > div:has(a[href*="libhunt.com"])
-google.*##.g:has(a[href*="libhunt.com"])
+||plex.page^$all
+duckduckgo.*###links > div:has(a[href*="plex.page"])
+google.*###rso .MjjYud a[href*="plex.page"]:upward(.MjjYud)
+||alternativeto.net^$all
+duckduckgo.*###links > div:has(a[href*="alternativeto.net"])
+google.*###rso .MjjYud a[href*="alternativeto.net"]:upward(.MjjYud)
+||slant.co^$all
+duckduckgo.*###links > div:has(a[href*="slant.co"])
+google.*###rso .MjjYud a[href*="slant.co"]:upward(.MjjYud)
+||zhihu.com^$all
+duckduckgo.*###links > div:has(a[href*="zhihu.com"])
+google.*###rso .MjjYud a[href*="zhihu.com"]:upward(.MjjYud)
+||blogspot.com^$all
+duckduckgo.*###links > div:has(a[href*="blogspot.com"])
+google.*###rso .MjjYud a[href*="blogspot.com"]:upward(.MjjYud)
+||instructables.com^$all
+duckduckgo.*###links > div:has(a[href*="instructables.com"])
+google.*###rso .MjjYud a[href*="instructables.com"]:upward(.MjjYud)
+||stackshare.io^$all
+duckduckgo.*###links > div:has(a[href*="stackshare.io"])
+google.*###rso .MjjYud a[href*="stackshare.io"]:upward(.MjjYud)
+||goodfirms.co^$all
+duckduckgo.*###links > div:has(a[href*="goodfirms.co"])
+google.*###rso .MjjYud a[href*="goodfirms.co"]:upward(.MjjYud)
+||geeksforgeeks.org^$all
+duckduckgo.*###links > div:has(a[href*="geeksforgeeks.org"])
+google.*###rso .MjjYud a[href*="geeksforgeeks.org"]:upward(.MjjYud)
+||programcreek.com^$all
+duckduckgo.*###links > div:has(a[href*="programcreek.com"])
+google.*###rso .MjjYud a[href*="programcreek.com"]:upward(.MjjYud)
+||libhunt.com^$all
+duckduckgo.*###links > div:has(a[href*="libhunt.com"])
+google.*###rso .MjjYud a[href*="libhunt.com"]:upward(.MjjYud)

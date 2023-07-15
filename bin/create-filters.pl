@@ -10,9 +10,9 @@ use Bio::Gonzales::Util::Cerial;
 my $data = yslurp("./filter-rules.yaml");
 
 my $rule_tmpl = <<'EOR';
-||DOMAIN^
-duckduckgo.*##.results > div:has(a[href*="DOMAIN"])
-google.*##.g:has(a[href*="DOMAIN"])
+||DOMAIN^$all
+duckduckgo.*###links > div:has(a[href*="DOMAIN"])
+google.*###rso .MjjYud a[href*="DOMAIN"]:upward(.MjjYud)
 EOR
 
 open my $filters_fh, '>', './ublock-filters.txt' or die "Can't open filehandle: $!";
